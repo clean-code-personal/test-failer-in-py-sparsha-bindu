@@ -1,3 +1,9 @@
+def generate_color_map(major_colors,minor_colors):
+    color_map = []
+    for i,major in enumerate(major_colors):
+        for j,major in enumerate(minor_colors):
+            color_map.append((i*5+j,majore,major))
+    return color_map
 
 def print_color_map():
     major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
