@@ -1,6 +1,6 @@
 
 def size(cms):
-    if cmd is None:
+    if cms is None:
         return None
         #raise ValueError("Input is missing") the input is missing,raise an error or return a message indicating that the input is missing
     elif cms < 38:
