@@ -23,4 +23,7 @@ def alert_in_celcius(farenheit):
 alert_in_celcius(400.5)
 alert_in_celcius(303.6)
 print(f'{alert_failure_count} alerts failed.')
-print('All is well (maybe!)')
+if alert_failure_count > 0:
+    print('There were errors. All is NOT well.')
+else:
+    print('All is well.')
