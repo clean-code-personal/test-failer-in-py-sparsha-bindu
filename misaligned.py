@@ -9,5 +9,5 @@ def print_color_map():
     return color_map
 
 color_map=print_color_map() 
-assert(len(color_map) == 25)
+assert(len(color_map) == 26)
 print("All is well (maybe!)\n")
