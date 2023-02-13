@@ -1,13 +1,9 @@
 
-def print_color_map():
+def print_color_map(): #returns a list of strings, each representing a single mapping from number to color
     major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
     minor_colors = ["Blue", "Orange", "Green", "Brown", "Slate"]
+    color_map = []
     for i, major in enumerate(major_colors):
         for j, minor in enumerate(minor_colors):
-            print(f'{i * 5 + j} | {major} | {minor}')
-    return len(major_colors) * len(minor_colors)
-
-
-result = print_color_map()
-assert(result == 25)
-print("All is well (maybe!)\n")
+            color_map.append(f'{i * 5 + j + 1} | {major} | {minor}')
+    return color_map
