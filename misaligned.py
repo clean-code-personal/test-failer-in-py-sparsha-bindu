@@ -5,5 +5,5 @@ def print_color_map(): #returns a list of strings, each representing a single ma
     color_map = []
     for i, major in enumerate(major_colors):
         for j, minor in enumerate(minor_colors):
-            color_map.append(f'{i * 5 + j} | {major} | {minor}')
+            color_map.append(f'{i * 5 + j + 1} | {major} | {minor}')
     return color_map
