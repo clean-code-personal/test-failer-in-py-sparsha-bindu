@@ -19,5 +19,5 @@ def alert_in_celcius(farenheit, alert_function=network_alert_stub):
         # let us keep a count of failures to report
         # However, this code doesn't count failures!
         # Add a test below to catch this bug. Alter the stub above, if needed.
-        alert_failure_count += 0
+        alert_failure_count += 1
     return alert_failure_count
