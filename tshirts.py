@@ -5,7 +5,7 @@ def size(cms):
         #raise ValueError("Input is missing") the input is missing,raise an error or return a message indicating that the input is missing
     elif cms < 38:
         return 'S'
-    elif cms > 38 and cms < 42:
+    elif cms >= 38 and cms < 42:
         return 'M'
     else:
         return 'L'
